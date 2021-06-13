@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    
+
     <title>DSW-3</title>
   </head>
   <body>
@@ -45,14 +47,26 @@
             </ul>
         </div>
     </nav>
-
+    <script src="javascript/exercicio-5.js"></script>
     <!--quando for escrever o programa, faz dentro desse div-->
     <div class="container">
         <h2>Exercicio 5</h2>
         <h3>Feito Por:</h3>
         <ul>
-            <li>Coloca seu nome aqui</li>
+            <li>Lucas</li>
         </ul>
+        <br>
+        <form>
+            <div class="form-group">
+                <label for="nota1">Nota de DSW</label>
+                <input type="number" class="form-control" id="nota1" value="" max="10">
+            </div>
+            <div class="form-group">
+                <label for="nota2">Nota de PJI</label>
+                <input type="number" class="form-control" id="nota2" value="" max="10">
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="javascript:calcularmedia();">Enviar</button>
+          </form>
     </div>
 
     <!-- JavaScript (Opcional) -->
